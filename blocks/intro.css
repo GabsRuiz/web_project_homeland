@@ -26,3 +26,22 @@ max-width:830px;
     color:#FFFF;
     line-height: 34px;
 }
+
+.intro__quote-author{
+        font-family: Inter, Arial, sans-serif;
+        font-weight:400;
+        font-size: 1.5em;
+        margin:0 0 auto auto;
+        letter-spacing: 0%;
+        color:#FFFF;
+        line-height: 34px;
+}
+.intro__content{
+    font-family: Inter, Arial, sans-serif;
+    font-weight:400;
+    font-size: 1em;
+    margin:32px 0 5.75em auto;
+    letter-spacing: 0%;
+    color:#FFFF;
+    line-height: 34px;
+}
