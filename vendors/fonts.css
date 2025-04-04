@@ -1,0 +1,8 @@
+@font-face{
+    src: url(./fonts/fonts_inter/InterVariable.woff2)
+    format("woff2"),
+         url(./fonts/fonts_inter/InterVariable.ttf) format("ttf"),
+         url(./fonts/fonts_inter/Inter.ttc) format("ttc");
+    font-family: "Inter";
+}
+

@@ -1,0 +1,10 @@
+.header__logo{
+    display:flex;
+    margin:0 auto;
+    padding-top:34px;
+    width:254.84px;
+    height:68.94px;
+}
+.header__image{
+    width:100%;
+}
