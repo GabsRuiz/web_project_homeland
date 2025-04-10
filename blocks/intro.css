@@ -32,22 +32,22 @@ letter-spacing: 0;
 }
 
 .intro__quote-author{
-        max-width: 738px;
+        max-width: 45.75rem;
         font-family: "Inter", Arial, sans-serif;
         font-size: 1.5em;
-        margin:0 252px 32px auto;
+        margin:0 252px 0 auto;
         letter-spacing: 0;
         color:#FFFF;
         line-height: 34px;
 }
 .intro__content{
-    max-width:722px;
+    max-width:45.12rem;
     font-family: "Inter", Arial, sans-serif;
     font-size: 1em;
-    margin:0 auto 92px 0;
+    margin:2rem .625rem 92px 0;
     letter-spacing: 0;
     color:#FFFF;
-    line-height: 34px;
+    line-height: 163%;
 }
 @media screen and (max-width: 768px) {
     .intro{
