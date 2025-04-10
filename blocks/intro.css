@@ -51,3 +51,13 @@ letter-spacing: 0;
     color:#FFFF;
     line-height: 34px;
 }
+@media screen and (max-width: 768px) {
+    .intro{
+    padding-top: 90px;
+    }
+    .intro__title{
+        font-size: 3.375em;
+        max-width: 707px;
+    }
+    
+}
