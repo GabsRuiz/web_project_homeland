@@ -1,0 +1,12 @@
+
+.logo{
+    display:flex;
+    margin:0 auto;
+    padding-top:2.65625%;
+    padding-bottom: 7.1140%;
+    max-width: 19.9096%;
+}
+
+.logo__image{
+    width:100%;
+}
