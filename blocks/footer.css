@@ -5,28 +5,11 @@
 }
 .footer__copyright{
     margin-block-start: 0;
-    font-family: Inter, Arial, sans-serif;
-    font-weight:400;
-    font-size: .875em;
-    margin:0 auto 1.5rem;
+    font-family: "Inter", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.14;
+    margin:0 auto 1.875%;
     letter-spacing: 0;
-    color:#FFFF;
-    line-height: 1rem;  
+    color:#FFFF;  
 }
 
-@media screen and (min-width: 768px){
-    .footer{
-        display: flex;
-        justify-content: center;
-    }
-    .footer__copyright{
-        margin-block-start: 0;
-        font-family: Inter, Arial, sans-serif;
-        font-weight:400;
-        font-size: .875em;
-        margin:0 auto 1.5rem;
-        letter-spacing: 0;
-        color:#FFFF;
-        line-height: 1rem;  
-    }  
-}

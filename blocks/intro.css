@@ -3,7 +3,7 @@ display:flex;
 flex-direction:column;
 max-width: 64.85%;
 padding-left:11.56%;
-padding-bottom:10.31%;
+padding-bottom:7.187%;
 }
 
 .intro__title{
@@ -38,11 +38,10 @@ color:#FFFF;
         
 }
 .intro__content{
-    /*margin:2rem .625rem 92px 0;*/
-    /*max-width:45.12rem;*/
     font-family: "Inter", Arial, sans-serif;
-    font-size: 1em;
-    letter-spacing: 0;
+    font-size: 16px;
     color:#FFFF;
     line-height: 163%;
+    margin-block:0;
+    padding-right: 13.01%;
 }
