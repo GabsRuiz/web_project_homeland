@@ -10,3 +10,15 @@
 .logo__image{
     width:100%;
 }
+
+@media screen and (max-width: 1024px){
+    .logo{
+        padding-top:3.9%;
+        padding-bottom:11.72%;
+        max-width:33.07%;
+        max-height: 8.593%;
+    }
+    .logo__image{
+        width:100%;
+    }
+}

@@ -45,3 +45,39 @@ color:#FFFF;
     margin-block:0;
     padding-right: 13.01%;
 }
+
+@media screen and (max-width: 1024px){
+    .intro{
+        max-width:93.75%;
+        padding:0;
+        margin:0 auto 11.458% auto;
+    }
+    .intro__title{
+        max-width:98.19%;
+        padding-bottom:6.94%;
+        font-size:45px;
+        line-height:1.088;
+    }
+    .intro__quote{
+        max-width:100%;
+        font-size:24px;
+        line-height:1.416;
+        padding:0;
+
+    }
+    .intro__quote-author{
+        max-width:100%;
+        display:flex;
+        flex-direction:row-reverse;
+        font-size:24px;
+        line-height:1;
+        padding-right: 0;
+        padding-bottom:4.44%;
+    }
+    .intro__content{
+        max-width: 100%;
+        font-size:16px;
+        line-height: 163%;
+        padding:0;
+    }
+}

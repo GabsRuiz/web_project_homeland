@@ -32,7 +32,21 @@ font-weight: 400;
 color:#FFFF;
 }
 
-.lead__image{
-max-width: 100%;
-padding-bottom:9.35%;
-}
+@media screen and (max-width: 1024px){
+    .lead{
+        max-width:93.75%;
+        padding-bottom:3.9%;
+    }
+    .lead__title{
+        max-width:73.61%;
+        font-size:75px;
+        line-height:1.053;
+        padding-bottom: 3.472%;
+    }
+    .lead__subtitle{
+        max-width: 100%;
+        font-size: 30px;
+        line-height: 1.2;
+        padding-bottom:0;
+    }
+    }
