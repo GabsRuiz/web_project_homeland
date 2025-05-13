@@ -9,7 +9,6 @@ margin: 0 auto;
 .lead__title{
 font-size: 96px;
 line-height: 1.0416;
-font-weight: 900;
 max-width: 73.171%;
 text-align:center;
 font-family: "Inter-Black", Arial, sans-serif;
@@ -49,4 +48,23 @@ color:#FFFF;
         line-height: 1.2;
         padding-bottom:0;
     }
+    }
+    @media screen and (max-width: 544px){
+        .lead{
+            max-width:90%;
+            padding-bottom:12.5%;
+        }
+
+        .lead__title{
+            max-width:79.166%;
+            font-size:40px;
+            line-height:110%;
+            padding-bottom:5.55%;
+        }
+
+        .lead__subtitle{
+            max-width: 100%;
+            font-size:16px;
+            line-height: 1.25;
+        }
     }

@@ -81,3 +81,26 @@ color:#FFFF;
         padding:0;
     }
 }
+
+@media screen and (max-width: 544px){
+    .intro{
+        max-width:90%;
+        padding:0;
+        margin:0 auto 20%;
+    }
+    .intro__title{
+        max-width: 100%;
+        padding-bottom:13.90%;
+        font-size:32px;
+        line-height:1.09;
+    }
+    .intro__quote{
+        line-height:1.25;
+        padding-bottom: 3.47%;
+    }
+    .intro__quote-author{
+        line-height: 1.416;
+        padding-bottom: 11.11%;
+        
+    }
+}

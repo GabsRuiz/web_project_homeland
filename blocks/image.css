@@ -12,3 +12,9 @@ padding-bottom:7.187%;
        
     }
 }
+
+@media screen and (max-width: 544px){
+    .image{
+        padding-bottom:20%;
+    }
+}

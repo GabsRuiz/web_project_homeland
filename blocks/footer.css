@@ -16,4 +16,14 @@
     padding-bottom: 3.125%;
 }
 }
+@media screen and (max-width: 544px){
+    .footer{
+        padding-bottom:7.5%;
+    }
+    .footer__copyright{
+        line-height: 1;
+    }
+
+}
+
 
