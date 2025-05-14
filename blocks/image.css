@@ -8,13 +8,20 @@ padding-bottom:7.187%;
 @media screen and (max-width: 1024px){
     .image{
        max-width: 100%;
-       padding-bottom:11.718%;
-       
+       padding-bottom:11.718%;  
+    }
+    .image__content{
+        max-width: 100%;
     }
 }
 
 @media screen and (max-width: 544px){
     .image{
+        max-width:100%;
         padding-bottom:20%;
+    }
+
+    .image__content{
+        max-width: 100%;
     }
 }
