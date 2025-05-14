@@ -5,6 +5,10 @@ margin:0 auto;
 padding-bottom:7.187%;
 }
 
+.image__content{
+    max-width:100%;
+}
+
 @media screen and (max-width: 1024px){
     .image{
        max-width: 100%;
