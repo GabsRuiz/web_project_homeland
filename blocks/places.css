@@ -1,6 +1,30 @@
 .places{
     max-width: 77.11%;
+    display:flex;
     padding:0 11.33% 7.03% 11.56%;
+}
+
+.places__item{
+    max-width: 99.70%;
+    padding-bottom: 8.105%;
     display:grid;
-    grid-template-rows:
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(2,1fr); 
+    column-gap: 40px;
+    row-gap:48px;
+}
+
+.places__item_title{
+    font-family: "Inter-Black", Arial, sans-serif;
+    color:#fff;
+    font-size: 72px;
+    line-height:1.05;
+    grid-column:1/2;
+    grid-row:1/2;
+}
+
+.places__item_image{
+    max-width:100%;
+    grid-column:1/2;
+    grid-row:2/3;
 }
