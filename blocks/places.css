@@ -43,10 +43,8 @@
     box-shadow: 5px 5px 10px #000;
 }
 .places__item_nft-container:hover{
-    color: #000;
+    opacity:25%;
 }
-
-
 
 .places__item_nft-paragraph{
     font-family: "Inter", Arial, sans-serif;
@@ -56,10 +54,15 @@
     line-height: 1;
     
 }
+
 .places__item_image{
     max-width:100%;
     grid-area: item_image;
     box-shadow: 10px 10px 25px #000; 
+}
+
+.places__item_image:hover{
+    opacity:50%;
 }
 
 
@@ -70,8 +73,7 @@
     color:#fff;
     font-family: "Inter", Arial, sans-serif;
     grid-area: item_artist;
-    padding-bottom:48px;
-    
+    padding-bottom:48px;  
 }
 
 .places__item_artist-title{
@@ -111,6 +113,6 @@
 
 }
 
-.places__item_paragraph-bottom{
+.places__item_paragraph:last-of-type{
     padding-bottom:19px;
 }
