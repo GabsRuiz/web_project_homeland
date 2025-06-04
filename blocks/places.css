@@ -1,13 +1,13 @@
 .places{
-    max-width: 76.875%;
+    max-width: 77%;
     display:flex;
     flex-direction: column;
-    padding:0 11.33% 7.03% 11.56%;
+    padding:0 11.3% 7.03% 11.8%;
 }
 
 .places__item{
     max-width: 99.70%;
-    padding-bottom: 8.105%;
+    padding-bottom: 8.4%;
     display:grid;
     grid-template-rows: repeat(4 ,min-content);
     grid-template-columns: 46.61% 49.4%; 
@@ -15,10 +15,24 @@
     "item_title item_artist"
     "item_image item_paragraphs"
     "item_image item_paragraphs"
-    "item_nft ."
+    "item_nft item_paragraphs"
     ;
-    column-gap: 40px;
+    column-gap: 43px;
     row-gap:0;
+}
+
+.places__item:last-of-type{
+    padding-bottom:0;
+}
+.places__item_long-paragraph{
+    grid-template-rows: repeat(5 ,min-content);
+    grid-template-areas:
+    "item_title item_artist"
+    "item_image item_paragraphs"
+    "item_image item_paragraphs"
+    "item_nft item_paragraphs"
+    ". item_paragraphs"
+    ;
 }
 
 .places__item_title{
@@ -41,6 +55,7 @@
     display: flex;
     justify-content: center;
     box-shadow: 5px 5px 10px #000;
+    margin-top:49px;
 }
 .places__item_nft-container:hover{
     opacity:25%;
@@ -84,6 +99,7 @@
     line-height:1;
     color: #aaa;
     padding-bottom:8px;
+    letter-spacing:1.5px;
 }
 
 .places__item_artist-paragraph{
@@ -109,10 +125,10 @@
     margin-block-end: 0;
     font-size: 18px;
     line-height: 163%;
-    padding-bottom:25px;
+    padding-bottom:5%;
 
 }
 
 .places__item_paragraph:last-of-type{
-    padding-bottom:19px;
+    padding-bottom:0;
 }

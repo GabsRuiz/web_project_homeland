@@ -7,3 +7,7 @@
     column-gap:16px;
     padding: 0 4.14% 7.1875% 3.36%;
 }
+
+.photo-grid__item{
+    max-width:100%;
+}
