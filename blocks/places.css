@@ -45,9 +45,9 @@
     max-width:100%;
     width:289px;
     height: 48px;
-    background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
+    background: linear-gradient(90deg, #0278FE 0%, #003A7B 99.98%);
     border-radius: 4px;
-    box-shadow: 5px 5px 10px #000;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
     margin-top:48px;
 }
 .places__nft-container:hover{
@@ -68,7 +68,7 @@
 .places__image{
     max-width:100%;
     grid-area: item_image;
-    box-shadow: 10px 10px 25px #000; 
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5); 
 }
 
 .places__image:hover{
